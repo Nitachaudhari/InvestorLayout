@@ -1,0 +1,102 @@
+*{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#main-container{
+    width: 100%;
+    padding: 30px;
+    background-color: rgba(165, 196, 250, 0.21);
+  
+}
+
+#news-container{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin: 30px;
+    padding: 10px;
+    gap: 30px;
+}
+
+#news-card{
+    width: 20%;
+    padding: 30px;
+    background-color: white;
+    border-radius:8px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+#news-card img{
+    width: 100%;
+    border: 1px solid rgb(218, 213, 213);
+    border-radius: 8px;
+}
+
+#main-container h1{
+    text-align: center;
+}
+
+#news-card h3{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin-bottom: 20px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+#news-card p{
+    color: rgb(66, 64, 64);
+}
+
+#news-card h5{
+    color: rgb(30, 30, 221);
+    font-weight: bold;
+    margin: 30px 0 10px 0;
+}
+
+#container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+    
+}
+
+#container button{
+    background-color: rgba(165, 196, 250, 0.21);
+    color: rgb(212, 18, 18);
+    border: 1px solid rgb(189, 11, 11);
+    border-radius: 6px;
+    font-weight: bold;
+    padding: 10px;
+}
+
+#investors{
+    margin: 30px;
+}
+
+#investors h1{
+    font-family: sans-serif;
+    font-weight: bold;
+    text-align: center;
+}
+
+#card-container{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    margin: 30px;
+
+}
+
+#card-container >div{
+    width: 26%;
+}
+
+#card-container img{
+    width: 100%;
+    border-radius: 8px;
+    border: 1px solid rgb(211, 206, 206);
+}
